@@ -7,7 +7,7 @@ Yext APIs requires client and api keys, and is not CORS enabled. Therefore, a pr
 
 1. This library can be added to you App by 
 
-``` javascript
+```html
 
 <script src=“https://sbm-it.github.io/yext/yext.js”></script>
 
