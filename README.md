@@ -11,13 +11,15 @@ Yext APIs requires client and api keys, and is not CORS enabled. Therefore, a pr
 
 <script src=“https://sbm-it.github.io/yext/yext.js”></script>
 
+
 ```
 
 2. and you can call Yext's API with something like
 
 ```javascript
 
-yext.getJSON(“https://api.yext.com/v2/accounts/[accountId]/locations?api_key=API_KEY&v=20170710”).then(function(x){console.log(“data retrieved:”,x)})
+yext.getJSON('https://api.yext.com/v2/accounts/[accountId]/locations?api_key=API_KEY&v=20170710').then(function(x){console.log('data retrieved:',x)})
+
 
 ```
 
