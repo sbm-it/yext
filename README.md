@@ -24,3 +24,5 @@ yext.getJSON('https://api.yext.com/v2/accounts/[accountId]/locations?api_key=API
 ```
 
 Give it a try in the console of https://sbm-it.github.io/yext. Note how the account id and api_key are handled automatically by the proxy, consumed as <i>[accountId]</i> and <i>api_key=API_KEY</i>.
+
+For a little App (with manifest, try “add to home screen from a mobile device”) that creates URL calls using the same proxy see https://sbm-it.github.io/yextJonas.
