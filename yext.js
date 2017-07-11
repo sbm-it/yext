@@ -1,6 +1,6 @@
 // console.log('yext.js loaded')
 
-if(typeof(yext)){ // in case you'e already using an object called yext
+if(typeof(yext)=="undefined"){ // in case you'e already using an object called yext
     yext={jobs:{}}
 }else{
     yext.jobs={}
